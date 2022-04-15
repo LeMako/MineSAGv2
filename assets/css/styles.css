@@ -7,6 +7,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #main {
@@ -21,6 +22,11 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
+    background-image: url('../img/slider/a_c8c1410e5daaf951a8c929d6fa07e223.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 0% 150%;
 }
 
 
@@ -85,6 +91,8 @@ html {
 
 #logo {
     display: inline-block;
+    
+    
 }
 
 #logo h1 {
@@ -92,21 +100,24 @@ html {
     text-decoration: none;
     line-height: 75px;
     margin: 0 120px;
-    
+    letter-spacing: 4px;
 }
 
 #logo > h1 {
     text-transform: uppercase;
     color: #39acd2;
     font-size: 35px;
+    text-shadow: 4px 4px rgba(119, 98, 98, 0.5);
     
 }
+
+
 
 #slider {
     position: relative;
     margin-top: 75px;
     padding-top: 50%;
-    background: url('../img/slider/MineSAG.jpg') top center / cover no-repeat;
+    background: url('../img/slider/so1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -114,7 +125,7 @@ html {
     bottom: 200px;
     color: #ffffff;
     left: 50%;
-    font-family: Andada, serif;
+    
     transform: translateX(-50%);
     text-align: center;
     display: block;
@@ -123,7 +134,7 @@ html {
 }
 #slider .text-heading {
     color: #fff;
-    font-family: Andada, serif;
+    
     font-size: 50px;
     text-shadow: 2px 2px rgb(154 154 154 / 50%);
 }
@@ -160,8 +171,199 @@ html {
 }
 
 #content {
+    background-color: #000;
     
 }
-#footer {
 
+#content .content-section {
+    width: 1000px;
+    padding: 40px 0px;
+    margin-left: auto;
+  
+    margin-right: auto;
+    background-color: rgb(221,221,221);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 80px;
+    
+    line-height: 2;
+    padding-top: 20px;
+    margin-top: 0px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+#content .section-heading {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#content .about {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#content .content-section2 {
+    background: rgb(221,221,221);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-bottom: 5px solid rgb(41,41,41);
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    
+    
+}
+
+#content > .content-section2 {
+    background-image: url('../img/slider/MineSAG.jpg');
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 6%;
+    background-position-y: 45%;
+    
+}
+
+.content-section2 .section-heading {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 73%;
+    margin-bottom: 0;
+    
+}
+
+#content .about2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 57%;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 0px;
+    
+    
+}
+
+
+
+
+#content .content-section3 {
+    background: rgb(221,221,221);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-bottom: 5px solid rgb(41,41,41);
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    
+    
+}
+
+#content > .content-section3 {
+    background-image: url('../img/slider/so2.jpg');
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position-x: 94%;
+    background-position-y: 45%;
+    
+}
+
+.content-section3 .section-heading {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 15%;
+    margin-bottom: 0;
+    
+}
+
+#content .about3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 0px;
+    
+    
+}
+
+
+
+
+#content .content-section4 {
+    background: rgb(221,221,221);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-bottom: 5px solid rgb(41,41,41);
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    
+    
+}
+
+#content > .content-section4 {
+    background-image: url('../img/slider/so3.jpg');
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 6%;
+    background-position-y: 45%;
+    
+}
+
+.content-section4 .section-heading {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 70%;
+    margin-bottom: 0;
+    
+}
+
+#content .about4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 57%;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 0px;
+    
+    
+}
+
+#footer {
+    
+    display: block;
+    font-size: 250px;
+   
+}
+
+#footer .hotro {
+    
+    background-image: url('../img/slider/abc.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
 }
