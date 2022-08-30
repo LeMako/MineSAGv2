@@ -367,3 +367,10 @@ html {
    background-repeat: no-repeat;
    background-size: auto;
 }
+
+#particles-js {
+    position: absolute;  
+    height: 210%;
+    
+} 
+
