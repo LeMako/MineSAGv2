@@ -369,8 +369,12 @@ html {
 }
 
 #particles-js {
-    position: absolute;  
-    height: 210%;
-    
+    position: absolute;
+    height: 227%;
+    width: 100%;
+    bottom: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 } 
 
